@@ -1,0 +1,25 @@
+#container {
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    background: gray;
+    display:block;
+    color: blue;
+    line-height: 0px;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+
+.gridbox {
+    display: inline-block;
+    box-sizing:border-box;
+    border: 1px solid black;
+    background: white;
+    margin:0;
+    padding:0;
+}
+
+.gridbox:hover{
+    background: black;
+    color: black;
+}
